@@ -17,11 +17,10 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
-                sudo source /home/tylerho/MLIP_Lab6/.venv/bin/activate
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
-                sudo pytest
+                sudo /home/tylerho/MLIP_Lab6/.venv/bin/pytest
 
                 # echo 'pytest not runned'
                 # exit 1 #comment this line after implementing Jenkinsfile
